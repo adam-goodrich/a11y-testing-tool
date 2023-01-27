@@ -1,0 +1,21 @@
+{
+  "name": "a11y-testing-tool",
+  "version": "1.0.0",
+  "description": "a11y testing tool",
+  "main": "./axe-test-dev.js",
+  "author": "Adam Goodrich",
+  "license": "MIT",
+  "scripts": {
+    "start": "export PATH=$PATH:./geckodriver && ./axe-test-dev.js"
+  },
+  "devDependencies": {
+    "core-js": "^3.6.5",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "@axe-core/webdriverjs": "^4.4.5",
+    "pdfkit": "^0.13.0",
+    "prompt-sync": "^4.2.0",
+    "selenium-webdriver": "^4.5.0"
+  }
+}
