@@ -494,3 +494,4 @@ Test results saved to ${testName
     driver.quit();
   })();
 }, 5000);
+
